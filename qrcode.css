@@ -1,0 +1,47 @@
+.qr-container {
+    border-radius: 10px;
+    padding:20px;
+    width: 400px;
+    box-shadow: 0 0 10px;
+    background-color: white;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    display: block;
+    margin-bottom : 10px;
+}
+#qr-input{
+     display:block;
+     width: 100%;
+     font-size: 16px;
+     margin-bottom:10px;
+     padding: 10px;
+}
+
+#qr-button{
+    display: block;
+    width: 100%;
+    font-size:16px;
+    padding:10px;
+    border:none;
+    background-color:rgb(11, 154, 243);
+    color:white;
+    margin-bottom: 10px;
+}
+#qr-img{
+    display:block;
+    margin: 0 auto;
+    width:50%;
+}
